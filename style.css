@@ -12,10 +12,11 @@ body {
   position: relative;
   top: -55px;
   width: 100%;
+
 }
 
 .navigation {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(231, 254, 230, 0.8);
   overflow-y: auto;
   position: fixed;
   left: 0;
@@ -23,6 +24,7 @@ body {
   text-align: center;
   width: 100%;
   z-index: 10000;
+  border-bottom: 10px solid #ACD391;  
 }
 
 ul {
@@ -40,7 +42,7 @@ li {
 
 #logo {
   color: #9CC381;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Revalia', cursive;
   font-size: 42px;
   padding: 0px 50px;}
 
@@ -51,14 +53,15 @@ li {
   text-align: center;
   top: 280px;
   width: 70%;
+  padding-top: 80px;
 }
 
 h1 {
   color: #FFF;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Indie Flower', cursive;
   font-size: 72px;
   line-height: 60px;
-  padding: 20px 10px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -72,7 +75,7 @@ h2 {
 }
 
 h3 {
-  color: #14213D;
+  color: #0a6916;
   font-family: 'Abel', sans-serif;
   font-size: 30px;
   text-align: center;
@@ -80,7 +83,7 @@ h3 {
 }
 
 h4 {
-  color: #FCA311;
+  color: #567529;
   font-family: 'Abel', sans-serif;
   font-size: 24px;
   margin: 0px 0px 50px 0px;
@@ -91,6 +94,15 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 300;
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  
+  max-height: 200px;
 }
 
 a {
@@ -101,7 +113,7 @@ a {
   background-color: #9CC381;
   color: #FFF;
   border-radius: 100%;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Fjalla One', cursive;
   font-size: 26px;
   padding: 34px;
   font-weight: 500; 
@@ -109,7 +121,7 @@ a {
 }
 
 .products {
-  background: #EEEFF1;
+  background: #E7FEE6;
   box-sizing: border-box;
   width: 90%;
   margin: 20px auto;
@@ -121,7 +133,7 @@ a {
   display: inline-block;
   margin: 0px 2% 80px 2%;
   text-align: center;
-  width: 45%;
+  width: 20%;
 }
 
 .product img {
@@ -131,6 +143,23 @@ a {
 .blue {
   color: #14213D !important;
 }
+
+.disclamer {
+	font-size: 20px;
+	padding:20px;
+}
+
 .footer {
-  font-size: 20px;
+  background-color: #9CC381;
+  color: #fff;
+  padding: 5px 0;
+  border-top: 10px solid #ACD391;
+}
+
+.footer p {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;  
+  padding-left: 100px;
 }
