@@ -1,2 +1,2 @@
 # html-static-travel-site
-Static index page for an travel site build with html/css
+Static index page for a travel site build with html/css
